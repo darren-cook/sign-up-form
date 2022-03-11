@@ -4,3 +4,175 @@
 }
 
 
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+#left {
+    background-image: url("alexander-andrews-yOIT88xWkbg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+    width: 40vw;
+}
+
+#spacer1{
+    height:40vh;
+    width:40vw;
+}
+
+#ltop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    width: 40vw;
+    background-color: rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+#odinimg{
+    height: 6vw;
+}
+
+#odintitle {
+    font-size: 4vw;
+    font-family: 'Monoton';
+    color: white;
+}
+
+#credit {
+    width: 40vw;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    margin-bottom: .5rem;
+    color: ivory;
+}
+
+#credit>a{
+    color: ivory;
+}
+
+#right {
+    height: 100vh;
+    width: 60vw;
+    background-color: rgb(248, 248, 248);
+    display: flex;
+    flex-direction: column;
+}
+
+#spacer2 {
+    height:13vh;
+    width:60vw;
+}
+
+#rtop{
+    height:20vh;
+    width:60vw;
+}
+
+.text {
+    color: #002b38;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:x-large;
+}
+
+.text2 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.text2>a{
+    color: #226a78;
+}
+
+#textrtop {
+    height:10vh;
+    max-width: 55ch;
+    padding-bottom: 20px;
+}
+
+#textrmid {
+    padding-bottom: 20px;
+}
+
+#rmid {
+    height:33vh;
+    width:60vw;
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 2px 5px 8px rgb(190, 190, 190);
+}
+
+input {
+    padding: 3px;
+    border-radius: 5px;
+    width: 15em;
+    margin-top: .25em;
+    border: 1px solid rgb(197, 197, 197);
+}
+
+.marginbottom {
+    margin-bottom: 1em;
+}
+
+.marginleft {
+    margin-left: 3rem;
+}
+
+form {
+    display: flex;
+}
+
+#fleft {
+    margin-right: 3em;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid rgb(49, 124, 209);
+    box-shadow: 1px 2px 3px rgb(202, 202, 202);
+}
+
+.error {
+    outline: none;
+    border: 1px solid rgb(218, 57, 57);
+}
+
+#errormessage {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: rgb(218, 57, 57);
+    padding-top: 3px;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    color: #002b38;
+    font-weight: bold;
+}
+
+button {
+    margin: 2em 0 2em;
+    background-color: #226a78;
+    border-style: none;
+    padding: 1em 2.5em;
+    border-radius: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+button:hover{
+    cursor: pointer;
+}

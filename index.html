@@ -12,47 +12,52 @@
 </head>
 <body>
     <div id="left">
+        <div id="spacer1"></div>
         <div id="ltop">
-            <div class="logo">
-                <img src="odin-lined.png" alt="The Odin Project Logo">
-            </div>
-            <div class="title">ODIN</div>
+            <img src="odin-lined.png" alt="The Odin Project Logo" id="odinimg">
+            <div id="odintitle">ODIN</div>
         </div>
+        <div id="credit">Photo by <a href="https://unsplash.com/@alex_andrews?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Andrews</a> 
+            on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></div>
     </div>
     <div id="right">
+        <div id="spacer2"></div>
         <div id="rtop">
-            <div class="text">
+            <div id="textrtop" class="text marginleft">
                 This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
                 Sign up <em>now</em> to get started.
             </div>
-            <div class="text">
+            <div class="text marginleft">
                 You <em>know</em> you want to.
             </div>
         </div>
         <div id="rmid">
-            Let's do this!
-            <form>
+            <div id="textrmid" class="text marginleft">
+                Let's do this!
+            </div>
+            <form class="marginleft">
                 <div id="fleft">
                     <label for="fname">First Name:</label><br>
-                    <input type="text" id="fname" name="fname"><br>
+                    <input type="text" id="fname" name="fname" class="marginbottom"><br>
                     <label for="fname">Email:</label><br>
-                    <input type="email" id="email" name="email"><br>
+                    <input type="email" id="email" name="email" class="marginbottom"><br>
                     <label for="password">Password:</label><br>
-                    <input type="password" id="password" name="password"><br>
+                    <input type="password" id="password" name="password" class="error"><br>
+                    <div id="errormessage">* Passwords do not match</div>
                 </div>
                 <div id="fright">
                     <label for="lname">Last Name:</label><br>
-                    <input type="text" id="lname" name="lname"><br>
+                    <input type="text" id="lname" name="lname" class="marginbottom"><br>
                     <label for="tel">Phone Number:</label><br>
-                    <input type="tel" id="tel" name="tel"><br>
+                    <input type="tel" id="tel" name="tel" class="marginbottom"><br>
                     <label for="password2">Confirm Password:</label><br>
-                    <input type="password" id="password2" name="password2"><br>
+                    <input type="password" id="password2" name="password2" class="error" title="test"><br>
                 </div>
             </form>
         </div>
         <div id="rbottom">
-            <button>Create Account</button>
-            <div class="text2">
+            <button class="marginleft">Create Account</button>
+            <div class="text2 marginleft">
                 Already have an account? <a href="#">Log in</a>
             </div>
         </div>
@@ -63,6 +68,6 @@
 
 
 <!--Photo by <a href="https://unsplash.com/@alex_andrews?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Andrews</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-font-family: 'Monoton', cursive;  
+  
 
 -->
